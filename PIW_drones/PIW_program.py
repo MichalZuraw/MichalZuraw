@@ -1,3 +1,6 @@
+@authors:
+@Marcin Bochenek
+@Michał Żurawka
 import cv2
 import pandas as pd
 import tkinter as tk
