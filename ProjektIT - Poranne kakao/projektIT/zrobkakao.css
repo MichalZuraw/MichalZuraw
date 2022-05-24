@@ -1,0 +1,285 @@
+body
+{
+    background-image: url(tlo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3e4444;
+    color: #ffffff;
+    font-family:'Lato', sans-serif;
+    font-size:20px;
+}
+[type=radio] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+[type=radio] + img {
+  cursor: pointer;
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+  outline: 2px solid #20C623;
+}
+
+[type=radio]:hover +img {
+  outline: 2px solid #83ff3b;
+}
+
+[type=radio]:hover:checked + img {
+  outline: 2px solid #20C623;
+}
+
+[type=submit] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+[type=submit] +img {
+   cursor: pointer;
+}
+[type=submit]:hover +img {
+  outline: 2px solid #83ff3b;
+}
+
+[type=submit]:hover:checked + img {
+  outline: 2px solid #20C623;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {
+  padding: 2px 16px;
+  background-color: white;
+  color: black;
+}
+
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+#container
+    {
+    margin-top:50px;
+    margin-bottom:auto;
+    max-width:100%;
+    margin-left :auto;
+    margin-right:auto;
+    text-align: center;
+    }
+.square{
+    float:left;
+    width:460px;
+}
+.dot {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 700px;
+  width: 700px;
+  background-color: darkolivegreen;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.rectangle
+    {
+    margin-top:40px;
+    width:700px;
+    height:75px;
+    margin-left :auto;
+    margin-right:auto;
+}
+.rectangle2
+{
+    margin-top:40px;
+    width:700px;
+    height:80px;
+    margin-left :auto;
+    margin-right:auto;
+}
+.rectangle3
+{
+    height:80px;
+    text-align: center;
+    margin-left :auto;
+    margin-right:auto;
+}
+.rectangle4
+{
+    height:80px;
+    width:700px;
+    margin-left :auto;
+    margin-right:auto;
+}
+.rectangle5
+{
+    height:50px;
+    width:700px;
+    margin-left :auto;
+    margin-right:auto;
+    text-align: center;
+}
+.rectangle6
+{
+    height:80px;
+    width:700px;
+    margin-left :auto;
+    margin-right:auto;
+}
+.rectangle7
+{
+    height:20px;
+    width:700px;
+    margin-left :auto;
+    margin-right:auto;
+}
+.rectangle8
+{
+    height:100px;
+    width:700px;
+    margin-left :auto;
+    margin-right:auto;
+}
+.rectangle9
+{
+    height:100px;
+    width:700px;
+    margin-left :auto;
+    margin-right:auto; 
+    text-align: center;
+}
+.tile2{
+
+    width:325px;
+    height:60px;
+    float:left;
+    background-color:#4d2600;
+}
+.tile2:hover{
+    background-color:#3c1500;
+}
+.tile3{
+    width:325px;
+    height:60px;
+    float:right;
+    background-color:#4d2600;
+}
+.tile3:hover{
+    background-color:#3c1500;
+}
+#kakao
+{
+    padding:5px;
+    text-align: center;
+    padding-top:10px;
+    font-size:40px;
+    font-family: 'Hanalei Fill', cursive;
+}
+#menu
+{
+    text-align: center;
+    font-size:40px;
+    font-family: 'Hanalei Fill', cursive;
+}
+
+#warning
+{
+    color:red;
+    text-align: center;
+    font-size:15px;
+}
+.suwak
+{
+  margin-left: auto;
+  margin-right: auto;
+  height:100px;
+  width: 495px;
+  font-size:18px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+#slider
+{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+}

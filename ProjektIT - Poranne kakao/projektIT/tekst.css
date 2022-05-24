@@ -1,0 +1,211 @@
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+body
+{
+    background: linear-gradient(to bottom,  #542220 55%, #E0C298 90%);
+    color: #ffffff;
+    font-size:25px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Hanalei Fill';
+}
+#logo
+{
+    margin-top: 5px;
+    text-align:center;
+    font-size:50px;
+}
+#zuraw
+{
+    clear:both;
+    text-align:right;
+    font-size:25px;
+}
+#kontener
+    {
+    width:1000px;
+    margin-left :auto;
+    margin-right:auto;
+    }
+#yt
+{
+  float: left;
+  width:420px;
+  height:200px;
+  padding-left: 50px;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+  position: fixed;
+  bottom: 0;
+  background-color: #fefefe;
+  width: 20%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {
+    padding: 2px 16px;
+    color: #000000;
+}
+
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+.tile0
+{
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    height:100px;
+    background-color:#a2836e;
+    float:left;
+}
+.tile{
+    width:600px;
+    height:120px;
+    margin-left: auto;
+    margin-right: auto;
+    clear:both;
+    background-color:#804000
+}
+.tile2{
+    width:450px;
+    height:80px;
+    margin-left: auto;
+    background-color:#4d2600;
+    float:left;
+}
+.tile2:hover{
+    background-color:#3c1500;
+}
+.tile3{
+    width:450px;
+    height:80px;
+    margin-left: ;
+    margin-right: auto;
+    float:right;
+    background-color:#4d2600;
+}
+.tile3:hover{
+    background-color:#3c1500;
+}
+.tile4{
+  float:left;
+  width:500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tile4{
+  float:left;
+  width:500px;
+  margin-left:
+}
+.tile5{
+    width:400px;
+    height:80px;
+    margin-left: auto;
+    margin-right: auto;
+    float:left;
+    background-color:#81bf47;
+}
+.tile5:hover{
+    background-color:#7bfc03;
+}
+.tile6{
+    width:400px;
+    height:80px;
+    margin-left: auto;
+    margin-right: auto;
+    float:right;
+    background-color:#81bf47;
+}
+.tile6:hover{
+    background-color:#7bfc03;
+}
+#Text
+{
+  width: 100%;
+  margin-top:20px;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  font-size:18px;
+
+}
