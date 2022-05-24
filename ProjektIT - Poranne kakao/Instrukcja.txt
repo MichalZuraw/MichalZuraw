@@ -1,3 +1,6 @@
+@authors:
+@Marcin Bochenek
+@Michał Żurawka
 1.Należy pobrać oraz zainstalować program XAMPP oraz POSTMAN, za pomocą których będziemy 
 symulować działanie naszego projektu.
 
