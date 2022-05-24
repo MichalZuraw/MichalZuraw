@@ -1,0 +1,25 @@
+@authors:
+@Marcin Bochenek
+@Michał Żurawka
+1.Należy pobrać oraz zainstalować program XAMPP oraz POSTMAN, za pomocą których będziemy 
+symulować działanie naszego projektu.
+
+2.W miejscu w którym zainstalowaliśmy program XAMPP wchodzimy w "(...)/xampp/htdocs" i umieszamy w nim plik "projektIT".
+
+3.W folderze "(...)/xampp" uruchamiamy aplikację "xampp-control.exe", a następnie uruchamiamy Moduły Apache oraz MySQL.
+
+4. Otwieramy przeglądarkę i wpisujemy localhost, a następnie naciskamy w prawym górnym rogu "phpMyAdmin"
+
+5.Naciskamy przycisk Import oraz wybieramy plik "kakao.sql" aby dodać nową bazę danych.
+
+6.Otwieramy aplikację POSTMAN i tworzymy 2 nowe Requesty "GET" oraz "POST".
+
+7. W "GET" wklejamy link : http://localhost/projektIT/bazatopostman.php?porcje=&temperatura=  , 
+a w "POST" wklejamy link : http://localhost/projektIT/postmantobaza.php
+
+8. Uruchamiamy przeglądarkę i wpisujemy http:localhost/projektIT/website.php gdzie możemy przetestować nasz projekt.
+
+9. Po zamówieniu kakao, w aplikacji POSTMAN naciskamy najpierw 'SEND" w zakładce "GET", 
+a następnie "SEND" w zakładce"POST".
+
+10. Zamówienie zostało zrealizowane, a kakao gotowe!
